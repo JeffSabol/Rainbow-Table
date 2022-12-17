@@ -18,7 +18,7 @@ You can change the number of chains and length of the chains to however you see 
 This will generate a rainbowtable.txt file
 
 ## Crack the hashes
-Run the command `python3 hw2.py --mode crack --num-chains 500000 -k 100 --rt-file rainbowbowtable.txt --hash-file hashes_test.txt` 
+Run the command `python3 rainbowtable.py --mode crack --num-chains 500000 -k 100 --rt-file rainbowbowtable.txt --hash-file hashes_test.txt` 
 --hash-file hashes_test.txt = *YOUR SHA256 PASSWORD HASHES TO CRACK*
 
 The CLI will print out each hash with the corresponding password on the right
